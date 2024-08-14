@@ -107,7 +107,7 @@ function generateTopics() {
             displayTopics.forEach((topic, index) => {
                 const resultItem = document.createElement('div');
                 resultItem.className = 'result-item';
-                resultItem.innerHTML = `<strong>${topic.title}</strong><p>${topic.description}</p><a href="${topic.pdf}" target="_blank" class="read-more-button">Read More</a>`;
+                resultItem.innerHTML = `<strong>${topic.title}</strong><p>${topic.description}</p><a href="${topic.pdf}" target="_blank" class="read-more-button">Get PDF</a>`;
 
                 resultContainer.appendChild(resultItem);
 
