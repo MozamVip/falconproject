@@ -93,20 +93,7 @@ button:hover {
     transform: translateY(0);
 }
 
-@media (max-width: 768px) {
-    form {
-        flex-direction: column;
-        align-items: stretch;
-    }
 
-    .form-group {
-        margin-bottom: 10px;
-    }
-
-    button {
-        width: 100%;
-    }
-}
 
 .read-more-button {
     display: inline-block;
