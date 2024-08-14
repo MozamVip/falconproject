@@ -112,4 +112,18 @@ button:hover {
     color: #fea116;
 }
 
+@media (max-width: 600px) {
+    #search-form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-group {
+        margin-bottom: 10px;
+    }
+
+    button {
+        margin-top: 10px;
+    }
+}
 
