@@ -4,10 +4,12 @@
     margin: 50px auto;
     padding: 20px;
     line-height: 40px;
+    
 }
 
 .faq-title {
     font-size: 3rem;
+    font-family: "Nunito", sans-serif;
     text-align: center;
     margin-bottom: 30px;
     font-weight: bold;
@@ -17,7 +19,7 @@
 
 details {
     margin-bottom: 10px;
-    border: 1px solid #ffffff;
+    border: 1px;
     border-radius: 5px;
     overflow: hidden;
 }
