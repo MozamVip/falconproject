@@ -77,10 +77,47 @@ const topics = {
             { title: "Integrated Circuit Design", description: "Design and simulate an integrated circuit for a specific application.", pdf: "pdf/integrated-circuit-design.pdf" }
         ]
     },
+    "cybersecurity": {
+        "easy": [
+            { title: "Privacy Implications of Nigerian Mobile Apps", description: "Assess the privacy implications of popular Nigerian mobile apps and suggest ways to improve user data protection.", pdf: "pdf/basic-circuit-design.pdf" },
+            { title: "Evaluate Password Strenght", description: "Develop a tool to evaluate password strength by analyzing criteria like length, complexity, and common patterns.", pdf: "pdf/introduction-to-arduino.pdf" },
+            { title: "Caesar Cipher Decoder", description: "Create a Caesar cipher decoder to decrypt messages by shifting letters backward through the alphabet.", pdf: "pdf/led-blink-project.pdf" },
+            { title: "Simple Vulnerability Matcher", description: "Create a device to measure and display battery voltage.", pdf: "pdf/battery-voltage-tester.pdf" },
+            { title: "Website Scraper", description: "Create a web scraper to automatically collect and analyze data from online sources, such as social media or product listings.", pdf: "pdf/simple-oscillator-circuit.pdf" },
+            { title: "Cybersecurity in Nigerian Public Sector", description: "Study the current state of cybersecurity in the Nigerian public sector and propose improvements for better protection.", pdf: "pdf/power-supply-design.pdf" },
+            { title: "Keylogger Projects", description: "Develop a keylogger project to record and analyze keystrokes on a device for monitoring or security purposes.", pdf: "pdf/digital-stopwatch.pdf" },
+            { title: "Cybersecurity Threats in Nigerian Social Media", description: "Explore common cybersecurity threats on Nigerian social media platforms and provide recommendations for safer usage.", pdf: "pdf/temperature-sensor.pdf" },
+            { title: "Data Privacy Issues in Nigerian E-commerce", description: "Investigate data privacy concerns in Nigerian e-commerce platforms and propose measures to enhance protection.", pdf: "pdf/automatic-light-control.pdf" },
+            { title: "Analysis of Recent Cyber Incidents in Nigeria", description: "Study recent high-profile cyber incidents in Nigeria and analyze their impact and response strategies.", pdf: "pdf/simple-amplifier.pdf" }
+        ],
+        "medium": [
+            { title: "Retrieval of Lost Data -Digital Forensics", description: "Develop a tool to retrieve lost or deleted data from various storage devices.", pdf: "pdf/microcontroller-based-temperature-logger.pdf" },
+            { title: "DOS Detection", description: "Create a system to detect and prevent Denial of Service (DoS) attacks by monitoring network traffic and identifying suspicious patterns.", pdf: "pdf/wireless-sensor-network.pdf" },
+            { title: "SQL Injection", description: "Build a tool to identify and mitigate SQL injection vulnerabilities in web applications by testing and securing database interactions.", pdf: "pdf/smart-home-automation.pdf" },
+            { title: "Assessment of Cybersecurity Measures in Nigerian Banks", description: "Evaluate the cybersecurity measures implemented by Nigerian banks and provide recommendations for enhancing their security posture.", pdf: "pdf/power-factor-correction-circuit.pdf" },
+            { title: "Cybersecurity in Nigerian Public Sector", description: "Study the current state of cybersecurity in the Nigerian public sector and propose improvements for better protection.", pdf: "pdf/inverter-design.pdf" },
+            { title: "Cyber Threat Intelligence Analysis for Nigerian Organizations", description: "Analyze cyber threat intelligence specific to Nigerian organizations and develop strategies to counter these threats", pdf: "pdf/digital-multimeter.pdf" },
+            { title: "Cybersecurity Resilience Assessment for Nigerian Critical Infrastructure", description: " Evaluate the resilience of Nigerian critical infrastructure (e.g., energy, transportation) against cyber threats and recommend improvements", pdf: "pdf/plc-based-automation-system.pdf" },
+            { title: "Impact Assessment of Cybersecurity Regulations on Nigerian Businesses", description: "Assess the impact of existing cybersecurity regulations on Nigerian businesses and propose regulatory improvements", pdf: "pdf/energy-meter-design.pdf" },
+            { title: "Image Steganography System", description: "Create an image steganography system to hide and extract secret messages within images using encoding and decoding techniques.", pdf: "pdf/battery-management-system.pdf" },
+            { title: "Optimized Password Cracker", description: "Create an optimized password cracker to efficiently guess and recover passwords using advanced algorithms and techniques.", pdf: "pdf/electromagnetic-field-analyzer.pdf" }
+        ],
+        "difficult": [
+            { title: "Web Application Firewall", description: "Develop a web application firewall to protect web applications from various security threats by filtering and monitoring HTTP requests.", pdf: "pdf/design-of-a-power-converter.pdf" },
+            { title: "Encryption Software", description: "Create encryption software to securely encode and decode sensitive data, ensuring privacy and protection from unauthorized access.", pdf: "pdf/advanced-circuit-simulation.pdf" },
+            { title: "Antivirus", description: "Develop antivirus software to detect, quarantine, and remove malicious threats from a computer system.", pdf: "pdf/wireless-power-transfer-system.pdf" },
+            { title: "VPN (Virtual Private Network)", description: "Create a VPN (Virtual Private Network) to securely encrypt internet connections and protect user privacy while browsing online.", pdf: "pdf/automated-control-system.pdf" },
+            { title: "Intrusion Detection and Prevention System (IDPS)", description: "Develop an Intrusion Detection and Prevention System (IDPS) to monitor network traffic, detect suspicious activities, and prevent potential security breaches.", pdf: "pdf/smart-grid-technology.pdf" },
+            { title: "Ethical and Legal Issues in Cybersecurity Research", description: "Explore the ethical and legal issues related to cybersecurity research in Nigeria and propose guidelines for researchers.", pdf: "pdf/advanced-robotics.pdf" },
+            { title: "Cybersecurity Implications of Emerging Technologies in Nigeria", description: "Analyze the cybersecurity implications of emerging technologies (e.g., AI, blockchain) in the Nigerian context and suggest mitigation strategies.", pdf: "pdf/renewable-energy-systems.pdf" },
+            { title: "High-Frequency Circuit Design", description: "Develop circuits for high-frequency applications such as RF communications.", pdf: "pdf/high-frequency-circuit-design.pdf" },
+            { title: "Comparison of Cybersecurity Frameworks", description: " Compare different cybersecurity frameworks (e.g., NIST, ISO 27001) and evaluate their suitability for Nigerian organizations.", pdf: "pdf/fault-detection-in-electrical-systems.pdf" },
+            { title: "National Cybersecurity Strategy for Nigeria", description: "Develop a comprehensive national cybersecurity strategy for Nigeria, addressing key areas such as policy, education, and infrastructure.", pdf: "pdf/integrated-circuit-design.pdf" }
+        ]
+    },
     // Add similar arrays for other departments...
     "civil-engineering": { /* Similar structure */ },
     "accounting": { /* Similar structure */ },
-    "cybersecurity": { /* Similar structure */ },
     "business-administration": { /* Similar structure */ },
     "microbiology": { /* Similar structure */ },
     "biochemistry": { /* Similar structure */ }
