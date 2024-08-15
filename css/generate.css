@@ -1,10 +1,11 @@
 .search-container {
     max-width: 1200px;
     margin: 20px auto;
-    padding: 20px;
+    padding: 10px;
     background: #fff;
-    border-radius: 8px;
+    border-radius: none;
     box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+    padding-bottom: 20px;
 }
 
 h2 {
@@ -99,7 +100,7 @@ button:hover {
     padding: 10px 15px;
     margin-top: 10px;
     background-color: #0f172b;
-    color: white;
+    color: #fea116;
     text-decoration: none;
     border-radius: 5px;
     text-align: center;
@@ -108,14 +109,25 @@ button:hover {
 }
 
 .read-more-button:hover {
-    background-color: #1e293b; /* Optional: a slightly lighter shade for hover effect */
-    color: #fea116;
+    background-color: #fea116; /* Optional: a slightly lighter shade for hover effect */
+    color: #0f172b;
+    transition: 0.5s;
 }
+
 
 @media (max-width: 600px) {
     #search-form {
         display: flex;
         flex-direction: column;
     }
+
+    .form-group {
+        margin-bottom: 10px;
+    }
+
+    button {
+        margin-top: 10px;
+    }
+}
 
 
