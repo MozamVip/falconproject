@@ -44,7 +44,7 @@
     border: 1px solid #ddd;
   }
   
-  button {
+  /* button {
     background-color: #0F172B;
     color: white;
     padding: 10px;
@@ -58,7 +58,27 @@
   
   button:hover {
     background-color: #FEA116;
-  }
+  } */
+
+  button {
+    padding: 10px 20px;
+    background-color: #0F172B;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    width: 100% ;
+    cursor: pointer;
+    flex-shrink: 0;
+    white-space: nowrap;
+    margin-top: 25px;
+}
+
+button:hover {
+    background-color: #FEA116;
+
+}
+
 
   
   .hidden {
@@ -66,7 +86,7 @@
     color: black;
   }
   
-  @media (max-width: 768px) {
+  @media (max-width: 600px) {
     h1 {
       font-size: 1.5rem;
     }
