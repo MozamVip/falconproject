@@ -44,7 +44,7 @@
     border: 1px solid #ddd;
   }
   
-  button {
+  .buttonV {
     background-color: #0F172B;
     color: white;
     padding: 10px;
@@ -55,8 +55,10 @@
     cursor: pointer;
     width: 100%;
   }
+
   
-  button:hover {
+  
+  .buttonV:hover {
     background-color: #FEA116;
   }
 
@@ -65,8 +67,10 @@
     display: none;
     color: black;
   }
+
   
-  @media (max-width: 600px) {
+
+  @media (max-width: 768px) {
     h1 {
       font-size: 1.5rem;
     }
